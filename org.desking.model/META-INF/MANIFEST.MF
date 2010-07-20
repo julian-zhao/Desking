@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Model
+Bundle-SymbolicName: org.desking.model; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.desking.model.internal.ModelPlugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ net.sf.cglib,
+ org.objectweb.asm,
+ org.apache.derby.core,
+ org.eclipse.core.databinding,
+ org.eclipse.jface.databinding,
+ org.eclipse.core.databinding.beans
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
